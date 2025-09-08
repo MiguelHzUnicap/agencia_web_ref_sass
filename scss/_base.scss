@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $fonte-principal;
+  background-color: $cor-bg;
+  color: $cor-branco;
+  line-height: 1.6;
+}

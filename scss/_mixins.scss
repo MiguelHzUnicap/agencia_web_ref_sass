@@ -1,0 +1,20 @@
+// Mixin para botões
+@mixin botao($cor-fundo, $cor-texto) {
+  background-color: $cor-fundo;
+  color: $cor-texto;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: darken($cor-fundo, 10%);
+  }
+}
+
+// Mixin para espaçamentos padrão
+@mixin espacamento-y($valor) {
+  margin-top: $valor;
+  margin-bottom: $valor;
+}

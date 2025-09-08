@@ -1,0 +1,22 @@
+.container {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: darken($cor-bg, 5%);
+  padding: $espacamento-base 0;
+
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.site-footer {
+  background-color: darken($cor-bg, 10%);
+  text-align: center;
+  padding: $espacamento-base;
+}

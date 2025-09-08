@@ -1,0 +1,14 @@
+body{font-family:Inter,sans-serif;background-color:#0f1724;color:#ffffff;line-height:1.6;margin:0;padding:0;box-sizing:border-box}
+.container{width:92%;max-width:1200px;margin:0 auto}
+.site-header{background-color:#0a1120;padding:1rem 0}
+.site-header .header__inner{display:flex;justify-content:space-between;align-items:center}
+.site-footer{background-color:#070d17;text-align:center;padding:1rem}
+.btn{background-color:#6c5ce7;color:#ffffff;padding:.75rem 1.5rem;border-radius:.5rem;text-decoration:none;font-weight:600;transition:background .3s ease}
+.btn:hover{background-color:#5948d4}
+.btn--secundario{background-color:#94a3b8;color:#0f1724;padding:.75rem 1.5rem;border-radius:.5rem;text-decoration:none;font-weight:600;transition:background .3s ease}
+.btn--secundario:hover{background-color:#7a889c}
+.nav__list{list-style:none;display:flex;gap:1rem}
+.nav__link{color:#ffffff;text-decoration:none}
+.nav__link:hover{color:#6c5ce7}
+.servicos__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem}
+.servicos__card{background:#182232;padding:2rem;border-radius:.75rem;text-align:center}
